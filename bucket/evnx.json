@@ -1,27 +1,22 @@
 {
-  "version": "0.3.5",
+  "version": "0.3.7",
   "description": "CLI tool for managing .env files — validation, secret scanning, format conversion",
   "homepage": "https://www.evnx.dev",
   "license": "MIT",
   "notes": "Run 'evnx --help' to get started. Docs: https://www.evnx.dev/guides",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/urwithajit9/evnx/releases/download/v$version/evnx-x86_64-pc-windows-msvc.tar.gz",
-      "hash": "sha256:PLACEHOLDER",
-      "bin": [["evnx.exe", "evnx"]]
+      "url": "https://github.com/urwithajit9/evnx/releases/download/v0.3.7/evnx-x86_64-pc-windows-msvc.zip",
+      "hash": "sha256:c690c954fe64f41e7edae9d66cc0eb6bc22793056be3c07380cc925f9aa1213b",
+      "bin": [["evnx-x86_64-pc-windows-msvc.exe", "evnx"]]
     }
   },
-  "checkver": {
-    "github": "https://github.com/urwithajit9/evnx"
-  },
+  "checkver": { "github": "https://github.com/urwithajit9/evnx" },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/urwithajit9/evnx/releases/download/v$version/evnx-x86_64-pc-windows-msvc.tar.gz",
-        "hash": {
-          "url": "$url.sha256",
-          "find": "^([a-f0-9]+)\\s"
-        }
+        "url": "https://github.com/urwithajit9/evnx/releases/download/v$version/evnx-x86_64-pc-windows-msvc.zip",
+        "hash": { "url": "$url.sha256", "find": "^([a-f0-9]+)\s" }
       }
     }
   }
