@@ -1,13 +1,13 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.2",
   "description": "CLI tool for managing .env files — validation, secret scanning, format conversion",
   "homepage": "https://www.evnx.dev",
   "license": "MIT",
   "notes": "Run 'evnx --help' to get started. Docs: https://www.evnx.dev/guides",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/urwithajit9/evnx/releases/download/v0.4.0/evnx-x86_64-pc-windows-msvc.zip",
-      "hash": "sha256:cefdb7b792cd09dcf5f9d45ff8835971e2faa236f2c450e053d05cc7f22f4eba",
+      "url": "https://github.com/urwithajit9/evnx/releases/download/v0.5.2/evnx-x86_64-pc-windows-msvc.zip",
+      "hash": "sha256:a16e5c42cb47b67fcfceccf4ac2462190a94e0eb0e5eccba8a46f5caec2e22e4",
       "bin": [["evnx-x86_64-pc-windows-msvc.exe", "evnx"]]
     }
   },
