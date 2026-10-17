@@ -1,13 +1,13 @@
 {
-  "version": "0.10.5",
+  "version": "0.10.6",
   "description": "Manage .env files — validate, scan for secrets, convert formats, and sync them end-to-end encrypted",
   "homepage": "https://www.evnx.dev",
   "license": "MIT",
   "notes": "Run 'evnx --help' to get started. Docs: https://docs.evnx.dev/cli",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/urwithajit9/evnx/releases/download/v0.10.5/evnx-x86_64-pc-windows-msvc.zip",
-      "hash": "sha256:f62afede1d50826f15c0c38b04df1e928f49e04958aa78f2e92b65f410d70d37",
+      "url": "https://github.com/urwithajit9/evnx/releases/download/v0.10.6/evnx-x86_64-pc-windows-msvc.zip",
+      "hash": "sha256:363c57083810a6b68f3141688300b41e6644794434403a351e5a0e69c5b08cfc",
       "bin": [["evnx-x86_64-pc-windows-msvc.exe", "evnx"]]
     }
   },
